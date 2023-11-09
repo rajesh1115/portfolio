@@ -8,57 +8,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">  
-  <style>
-
-.bannerBgImage{
-    height: 100vh;
-    background: url("https://github.com/rajesh1115/portfolio/assets/126964441/a154e968-9ce4-468b-bf92-337cb8ec40fb");
-    background-size: cover;
-    position: relative;
-}
-.bannerText{
-    text-align:inherit;
-    position:absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(172, 178, 188);
-}
-
-.bannerTitle{
-    font-size: 4rem;
-    font-family: cursive;
-    align-content: flex-start;
-}
-
-.bannerDesc{
-    font-size: 4rem;
-    font-family: cursive;
-}
-
-.card{
-    cursor: pointer;
-}
-
-.card:hover{
-    background-color: rgb(209, 230, 236);
-    border: 2px solid rgb(17, 19, 18); 
-}
-
-.bIcon{
-    width:100%;
-    text-align: center;
-    font-size: 40px;
-}
-
-.img-fluid:hover{
-    border: 2px solid rgb(201, 204, 194); 
-}
-
-.card-img-top{
-    height: 50vh;
-}
-</style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body class="body">
     
@@ -82,6 +32,9 @@
                 <a class="nav-link" href="#Skills">Skills</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#Internship">Internship</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#Certificates">Certificates</a>
               </li>
               <li class="nav-item">
@@ -99,22 +52,22 @@
             <div class="row">
                 <div class=".col-md-12 bannerText">
                 
-                    <h1 class="display-4 fade-in">Welcome to My Portfolio</h1>
-                    <p class="lead fade-in">Hello there! I'm thrilled to share my portfolio with you—a showcase 
-                     of my expertise as a Mechanical Enggineer with a burning passion for frontend development.</p>
+                    <h1 class="display-2 fade-in text-center" >Welcome to My Portfolio</h1>
+                    <pre class="lead fade-in text-center">Hello there! I'm thrilled to share my portfolio with you.
+             a showcase of my expertise as a Mechanical Enggineer with a burning passion for frontend development.</pre>
                 </div>
             </div>
         </div>
     </section>
     <!--Banner End-->
-
+ 
     <!--About Start-->
     <section>
         <div class="container" id="biog">
             <h1 class="text-center">BIOG</h1>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="https://github.com/rajesh1115/portfolio/assets/126964441/9991bf80-21b1-4289-848a-2f8226666ca3" alt="passportpicture" class="card-img img-fluid">
+                    <img src="profile.jpg" alt="passportpicture" class="card-img img-fluid">
                 </div>
                 <div class="col-md-8">
                     <p><br><br><br>I am pursuing a Bachelor of Technology in Mechanical Engineering at Sri Vasavi Engineering college located at Pedatadepalli , West Godavari, Andhra Pradesh.</p>
@@ -129,15 +82,6 @@
                               <li>Branch: MECHANICAL Engineering</li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
-                            <ul>
-
-                               
-                                <li>Portfolio: <a href="http://www.google.com"
-                                    target="_blank" rel="noopener noreferrer" class="text-decoration-none">
-                                    Click Here for Portfolio</a></li>
-                            </ul>           
-                        </div>
                     </div>
                     <div class="row">
                       <p>
@@ -145,13 +89,11 @@
                         as well as HTML, CSS , JavaScript, Pyhton and ReactJs.By Using this Skills in different Projects, 
                         creating different websites will make me more 
                         expertise with the technologies. By updating my skills towards changing
-                         technologies help me to get knowledge regarding current situations.
-                        
-                     
-                      </p>
-                      As a mechanical engineer, my academic journey honed my problem-solving 
-                      abilities, critical thinking skills, and attention to detail. When I ventured into frontend 
-                      development, I was delighted to discover how these traits perfectly complemented the world of coding and design.</p>
+                        technologies help me to get knowledge regarding current situations.
+                        <br>
+                        As a mechanical engineer, my academic journey honed my problem-solving 
+                        abilities, critical thinking skills, and attention to detail. When I ventured into frontend 
+                        development, I was delighted to discover how these traits perfectly complemented the world of coding and design.
                            
                     </div>
                 </div>
@@ -192,10 +134,10 @@
                 <div class="col-md-4">
                     <div class="card my-3">
                         <div class="card-body">
-                          <h5 class="card-title text-center"> <i class="fas servicesIcon fa-layer-group"></i>ReactJs</h5>
-                          <p class="card-text">ReactJS is an open-source JavaScript library that is used for building
-                             user interfaces in a declarative and efficient way. It is a component-based front-end
-                              library responsible only for the view layer of an MVC (Model View Controller) architecture.</p>
+                          <h5 class="card-title text-center"> <i class="fas servicesIcon fa-layer-group"></i>AutoCAD</h5>
+                          <p class="card-text">AutoCAD is computer-Aided Design(CAD) software used to create 2D and 3D models more efficiency and precisely than anything drafted by hand.
+                            AutoCAD is most commonly used by design-centered technical fields like engineering and architecture.
+                          </p>
                         </div>
                     </div>
                 </div>
@@ -214,21 +156,20 @@
                 <div class="col-md-4">
                     <div class="card my-3">
                         <div class="card-body">
-                          <h5 class="card-title text-center"> <i class="fas servicesIcon fa-layer-group"></i> Java Programming</h5>
-                          <p class="card-text">Java is a programming Language.It is robust, secured and secured and
-                             object-oriented programming language. And any hardware or software 
-                             environment in which a program runs is known as a platform.</p>
+                          <h5 class="card-title text-center"> <i class="fas servicesIcon fa-layer-group"></i> CATIA</h5>
+                          <p class="card-text">CATIA stands for computer Aided Three-Dimensional Interactive Applications. 
+                            Its much more than a CAD(COMPUTER AIDED DESIGN) software 
+                            package.its a full software suite which incorporates CAD,CAE and CAM.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card my-3">
                         <div class="card-body">
-                          <h5 class="card-title text-center"> <i class="fas servicesIcon fa-layer-group"></i>JavaScript</h5>
-                          <p class="card-text">JavaScript is a scripting language used to develop
-                             web pages. Developed in Netscape, JS allows developers
-                              to create a dynamic and interactive web page to interact 
-                              with visitors and execute complex actions.</p>
+                          <h5 class="card-title text-center"> <i class="fas servicesIcon fa-layer-group"></i>Unigraphics NX</h5>
+                          <p class="card-text">Unigraphics NX also known as Seimens NX.it is an advanced High-end CAD/CAM/CAE software package originally developed by UGS Corporation,
+                            It is used for Design,Enginering analysis, Manufacturing finished design by using included machining modules.
+                          </p>
                         </div>
                     </div>
                 </div>
@@ -238,31 +179,41 @@
     <!-- Services End -->
 
     <!-- Portfolio Start -->
-    <section id="Projects & Certificates">
+    <section id="Internship">
       <div class="container">
-        <h1 class="text-center">Certificates</h1>
+        <h1 class="text-center">Internships</h1>
         <div class="row">
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="card mb-3">
-              <img src="https://github.com/rajesh1115/portfolio/assets/126964441/97c65fd7-dccc-4dce-91d1-507978a97c05" class="card-img-top" alt="...">
+              <img src="IBM-logo.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Certificate:1</h5>
+                <h5 class="card-title">Internship:1</h5>
                 
-                <p class="card-text">This is my Certificate of  completion of 3 months internship
-                  in celonis Process Mining by AICTE-EduSkills</p>
+                <p class="card-text">This is my Certificate of  completion of <b>IBM SkillBuild 6Weeks in Front-end development internship by Edunet Foundations</b></p>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="card mb-3">
               <img src="https://github.com/rajesh1115/portfolio/assets/126964441/4c6f174e-6315-4b8d-a494-4de8d68be13c" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Certificate:2</h5>
+                <h5 class="card-title">Internship:2</h5>
                 <p class="card-text">
-                  This is my certificate of Completion of 3 months vitual internship in AWS Cloud Computing by AICTE-EduSkills
+                  This is my certificate of Completion of 3 months vitual internship in <b>AWS Cloud Computing</b> by AICTE-EduSkills
                 </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://github.com/rajesh1115/portfolio/assets/126964441/97c65fd7-dccc-4dce-91d1-507978a97c05" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Internship:3</h5>
+                
+                <p class="card-text">This is my Certificate of  completion of 3 months Virtual internship
+                  in <b>Celonis Process Mining</b> by AICTE-EduSkills</p>
               </div>
             </div>
           </div>
@@ -271,7 +222,63 @@
 
     </section>
     <!-- Portfolio End -->
+    <!--Certificates start-->
+    <section id="Certificates">
+      <div class="container">
+        <h1 class="text-center">Certificates</h1>
+        <div class="row">
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="python logo.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Certificate:1</h5>
+                
+                <p class="card-text">This is my Certificate of  completion of <b>Python For Beginners Course in-Depth</b>
+                  by UDEMY</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="HTML img.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Certificate:2</h5>
+                <p class="card-text">
+                  This is my certificate of Completion of <b>Learn HTML-From Beginner to Advanced Level</b> by UDEMY
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="css logo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="https://codekaro.in/course-certificate/f443b81c887c0533">
+                <h5 class="card-title">Certificate:3</h5>
+                </a>
+                <p class="card-text">This is my Certificate of Achievement for the successful completion of <b>How to CSS</b> 
+                  by Codekaro</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="AutoCAD img.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Certificate:4</h5>
+                
+                <p class="card-text">This is my Certificate of  Praticipation of <b>5 days AutoCAD Programme</b>
+                  by VIT-AP University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+    </section>
+    <!--Certificates-end-->
     <!-- Contact Start-->
     <section id="Connect">
       <div class="container-fluid">
